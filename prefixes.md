@@ -18,7 +18,7 @@ Whenever you send a message that has one of your characters' prefixes in it, alo
 
 Think of it like a custom, personal command for posting as your character.
 
-## Example:
+## Example
 
 You create a character named Tyler, and you make the prefix `a>`, for _alpha_, because it's a phrase features heavily in Tyler's lore. It's good to make your prefixes memorable.
 

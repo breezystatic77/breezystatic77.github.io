@@ -1,4 +1,4 @@
-# How does it do this?
+# How Does It Do That?
 
 Thespian uses a technique pioneered by its senior, much-loved bot [Tupperbox](https://github.com/Keterr/Tupperbox), using [Discord Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) to make its faux-posts.
 

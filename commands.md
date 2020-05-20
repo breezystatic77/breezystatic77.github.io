@@ -17,7 +17,7 @@ You supply the character's name, and attach a file to be used as an avatar. Smal
 Example:
 
 ```
-th!avatar "Billy Bob" <attach an image>
+th!avatar "Billy Bob" (attach an image)
 ```
 
 ## `create`
@@ -48,7 +48,7 @@ Example:
 th!info Aragorn
 ```
 
-?> To get info about a character from one of their messages, react to a (recent) message from them with a ❓. Thespian will DM you a message.
+?> To get info about a character from one of their messages, react to a (recent) message from them with a ❓. Thespian will DM you a message. [More info](reactions#❓)
 
 ## `list`
 

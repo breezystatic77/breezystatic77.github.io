@@ -4,6 +4,7 @@
 - [Reaction Commands](reactions.md)
 - [Prefixes](prefixes.md)
 - [Formatting](formatting.md)
+- [Changelog](/changelog.md)
 
 <br/>
 <br/>

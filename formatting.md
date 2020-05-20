@@ -1,6 +1,6 @@
 # Formatting
 
-When editing a profile that's in Markdown mode, all normal [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) can be used, along with some additions.
+When editing a profile in Markdown mode, all normal [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) can be used, along with some additions.
 
 ## Alignment
 
