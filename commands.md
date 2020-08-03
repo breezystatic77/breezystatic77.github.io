@@ -36,6 +36,12 @@ th!create "Billy Bob" ++TEXT
 
 Get Thespian to DM you the _private_ link you can use to edit your character. Be careful about sharing this link - anybody who has access to it can also edit your character. You can use the `regenerate` command to create a new link.
 
+Example:
+
+```
+th!edit Aragorn
+```
+
 ## `info`
 
 Get Thespian to respond to your message with a link to one of your characters.
@@ -50,8 +56,32 @@ th!info Aragorn
 
 ?> To get info about a character from one of their messages, react to a (recent) message from them with a ❓. Thespian will DM you a message. [More info](reactions#❓)
 
+## `invite`
+
+Get a link to invite Thespian to your own server!
+
 ## `list`
 
 Get a list of all your characters.
 
 This will only show characters you list as showing up on your user page. To get a list of _all_ characters, use this command in a PM with the Thespian bot.
+
+---
+
+# Permission Commands
+
+Server administrators have fine-grain control over what channels users can use commands in, and what channels they can post in as their characters.
+
+Permissions are set at 3 levels, and are evaluated in this order:
+
+- Channels
+- Roles
+- Default Value
+
+## `permissions`
+
+## `permission-role`
+
+## `permission-channel`
+
+## `permission-default`
