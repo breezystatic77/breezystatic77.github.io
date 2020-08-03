@@ -14,12 +14,6 @@ When you create a character, you will be asked to supply a **Prefix.**, which is
 
 `TEXT===`
 
-You can even use Emojis!
-
-`🎉TEXT`
-
-`TEXT 👑`
-
 Whenever you send a message that has one of your characters' prefixes in it, along with some regular text, Thespian will replace that message with one from your character.
 
 Think of it like a custom, personal command for posting as your character.
