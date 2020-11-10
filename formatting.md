@@ -1,37 +1,33 @@
 # Formatting
 
-When editing a profile in Markdown mode, all normal [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) can be used, along with some additions.
+When editing a profile in Markdown mode, all normal [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) can be used.
+
+Previously, there were some additional pieces of custom syntax that are no longer supported. You can use some very simple HTML tags in their place.
 
 ## Alignment
 
-You can align a block of text to the right:
+You can align a block of text to the center:
 
-```
-->This text is aligned right->
-```
-
-Or to the left:
-
-```
-<-This text is aligned left<-
+```md
+<center>This text is aligned center</center>
 ```
 
-Or to the center:
+Or to the right:
 
-```
-->This text is aligned center<-
+```md
+<p style="text-align: right;">This text is aligned right</p>
 ```
 
 ## Subscript / Superscript
 
 You can make subscript text:
 
-```
-~This text is subscript~
+```md
+This text is <sub>subscript</sub>
 ```
 
 Or superscript:
 
-```
-^This text is superscript^
+```md
+This text is <sup>superscript</sup>
 ```
