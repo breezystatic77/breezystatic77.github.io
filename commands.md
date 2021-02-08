@@ -74,14 +74,22 @@ This will only show characters you list as showing up on your user page. To get 
 
 **Also:** `p`
 
+Show all the permission settings for the current server.
+
 ## `permission-default`
 
 **Also:** `pd`
+
+Edit what a default permission is for @everyone.
 
 ## `permission-channel`
 
 **Also:** `pc`
 
+Edit a permission for a particular channel.
+
 ## `permission-role`
 
 **Also:** `pr`
+
+Edit a permission for a particular server role.

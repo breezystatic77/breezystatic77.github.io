@@ -22,6 +22,6 @@ This is often a problem with permissions for the bot. It needs the following to 
 
 If it's not working, try kicking the bot and re-inviting it. If that doesn't work, double-check to make sure it's not being affected by any server roles.
 
-Additionally, extremely new servers (less than 1 day) _may_ have some restriction on bots creating webhooks with them. If you just created your server, try waiting a day.
+Additionally, extremely new servers (less than 1 day) _may_ have some restriction on bots creating webhooks with them. If you just created your server, try waiting a day. (Still working on this one!)
 
 If none of the above work, please report your problem in the official Discord! I keep track of bug reports, and I'm always trying to make the bot as stable as possible.
