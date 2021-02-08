@@ -11,4 +11,6 @@ Welcome to the Thespian docs!
 
 As of this writing, Thespian is in an early beta, with tons of features planned for the future. Expect lots of changes to come.
 
+[**FAQ**](/faq.md)
+
 [Changelog](/changelog.md)

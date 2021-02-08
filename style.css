@@ -22,27 +22,32 @@ body {
 	color: #e2e2e2;
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
 
 :root {
-	--base-background-color: #36393f;
-	--base-color: #e2e2e2;
-	--base-font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  --base-background-color: #36393f;
+  --base-color: #e2e2e2;
+  --base-font-family: "Fira Sans", "Roboto", "Helvetica", "Arial", sans-serif;
 
-	--heading-font-family: 'Lora';
-	--heading-font-weight: 600;
+  --heading-font-family: "Lora";
+  --heading-font-weight: 600;
 
-	--sidebar-background: var(--base-background-color);
-	--sidebar-border-color: var(--base-color);
-	--sidebar-toggle-background: var(--base-background-color);
-	--sidebar-name-color: var(--base-color);
-	--sidebar-name-font-family: var(--heading-font-family);
-	--sidebar-font-weight: bold;
+  --sidebar-background: var(--base-background-color);
+  --sidebar-border-color: var(--base-color);
+  --sidebar-toggle-background: var(--base-background-color);
+  --sidebar-name-color: var(--base-color);
+  --sidebar-name-font-family: var(--heading-font-family);
+  --sidebar-toggle-offset-left: 8px;
 
-	/* --sidebar-nav-pagelink-background-image: none;
+  /* --sidebar-nav-pagelink-background-image: none;
 	--sidebar-nav-pagelink-padding: 0.35rem; */
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-style: italic;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: italic;
 }

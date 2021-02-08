@@ -1,4 +1,5 @@
 - [Home](/)
+- [FAQ](faq.md)
 - [How it Works](how-it-works.md)
 - [Bot Commands](commands.md)
 - [Reaction Commands](reactions.md)
