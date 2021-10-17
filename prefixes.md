@@ -25,7 +25,7 @@ You create a character named Tyler, and you make the prefix `a>`, for _alpha_, b
 You create Tyler with this command:
 
 ```
-th!create Tyler a>TEXT
+/character create Tyler a>TEXT
 ```
 
 To post as Tyler, send a message that looks like this:

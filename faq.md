@@ -10,7 +10,7 @@ See [How it Works](how-it-works.md) for more information.
 
 ## How do I make a character?
 
-See the help page for the [`create`](commands.md#create) for more information.
+See the help page for the [`/character create`](commands.md) for more information.
 
 ## I can't get the posting to work.
 

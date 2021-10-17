@@ -1,95 +1,67 @@
 # Bot Commands
 
-You can send a command to a bot by mentioning it, starting the comand with `th!`, or by sending it a private message.
+Thespian uses Discord's new Slash Commands feature. To get a list of all the commands available, just type `/` in any channel in your server. 
 
-You can include the arguments for the command in the initial message, or just type the command, and the bot will ask for more information.
+## `/character`
 
-## `help`
+This contains subcommands related to Thespian characters.
 
-**Also:** `h`
-
-DMs you a list of all commands. Similar to this page.
-
-## `avatar`
-
-**Also:** `a`
-
-Change or add a character's avatar. This is the picture that appears next to messages by them.
-
-You supply the character's name, and attach a file to be used as an avatar. Smaller, square images work best.
-
-#### Example
-
-```
-th!avatar "Billy Bob" (attach an image)
-```
-
-## `create`
-
-**Also:** `c`
+### `/character create [name] [prefix] [optional: avatar_url]`
 
 Create a character. Thespian will create the character, then DM you a link, which you can use to edit the character's bio and adjust settings.
 
 You'll supply a name, and a [prefix](/prefixes.md).
 
-#### Example
+Optionally, you can supply a URL for the character's avatar to set it right away. You can change it later with `/character edit`.
 
-```
-th!create "Billy Bob" ++TEXT
-```
+### `/character delete [name] [are_you_sure]`
 
-## `edit`
+Delete one of your characters by name. There's a second input called `are_you_sure` which _has_ to be `True` for the command to work. Deleting a character is *permanent*, and cannot be undone.
 
-**Also:** `e`
+### `/character edit [name] [optional: regenerate]`
 
-Get Thespian to DM you the _private_ link you can use to edit your character. Be careful about sharing this link - anybody who has access to it can also edit your character. You can use the `regenerate` command to create a new link.
+Thespian will DM you a unique link you can visit to edit your character. Be careful! The link can be used by _anyone_ to edit your character, so don't share it. 
 
-## `info`
+If you want to invalidate any old unique links and create a new one, you can use the optional `regenerate` argument.
 
-**Also:** `i`
+### `/character list [optional: page] [optional: dm]`
 
-Get Thespian to respond to your message with a link to one of your characters.
+List all of your own characters. You can optionally pick which page you list, or whether to send it to yourself in a DM instead of in a public channel.
 
-You'll supply a name. (Advanced use: you can also supply any character's UUID, instead)
+### `/character search [name]`
 
-#### Example
+Search for characters in the current server. This will search for approximate name matches of characters that belong to other users in the server.
 
-```
-th!info Aragorn
-```
+This will _only_ search for characters that are flagged as 'public' and would already appear on your user page. If you don't want your character to show up in searches, be sure to turn off 'public' when editing them.
 
-?> To get info about a character from one of their messages, react to a (recent) message from them with a ❓. Thespian will DM you a message. [More info](reactions#❓)
+## `/permissions`
 
-## `list`
+This contains subcommands related to permissions. You can whitelist, or blacklist, certain channels or roles from using Thespian's character-posting functionality.
 
-**Also:** `l`
+## `/permissions show`
 
-Get a list of all your characters.
+Show the current state of all permissions in the server
 
-This will only show characters you list as showing up on your user page. To get a list of _all_ characters, use this command in a PM with the Thespian bot.
+## `/permissions default [op]`
 
----
+Set whether the server allows character posting by default. This is global, across all channels and all roles.
 
-## `permissions`
+## `/permissions role [op]`
 
-**Also:** `p`
+Set whether users with a specific role can post as their characters. This overrides the default setting.
 
-Show all the permission settings for the current server.
+## `/permissions channel`
 
-## `permission-default`
+Set whether users in a specific channel can post as their characters. This overrides the default setting.
 
-**Also:** `pd`
+## `/permissions manager set`
 
-Edit what a default permission is for @everyone.
+Set the role that is the assigned _manager_ of permissions. Users with this role can use all `/permissions` commands.
 
-## `permission-channel`
+## `/permissions manager clear`
 
-**Also:** `pc`
+Un-set the manager role.
 
-Edit a permission for a particular channel.
+## `/invite`
 
-## `permission-role`
-
-**Also:** `pr`
-
-Edit a permission for a particular server role.
+Get an invite link to the Thespian bot to add it to your own server!
